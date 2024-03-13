@@ -1,0 +1,35 @@
+1. git init : to initialize the empty repository
+2. git config --global user.name "name" : to set the username
+3. git config --global user.email "mail" :to set the email
+4. git status :to know the status of file
+5. git add . :to add the file from working area to staging area
+6. git commit -m "message" : to move the file from staging area to local repository
+7. git log :to know the commit history
+8. git remote -v :to check whether the we have the permission to fetch or push9. 
+9. git remote add origin url :to establish the connection local repository and global repository
+10.git push -u origin master: to push the data from local to remote repository
+11.git reset filename :bring the file from staging area to workspace
+12.git checkout filename :bring to previous version
+13.git reset --soft commit id :it removes only the commit history
+14.git reset --hard commit id :it removes all the commit history along with data
+15.git branch :to know the branch
+16.git branch branch name :to create branch name
+17.git switch branch name : switch to the particular branch name
+18.git revert commit id :to deal with errors
+19.git checkout -b branch name :to create branch name and switch to branch name
+20.git checkout branch name : to switch the branch
+21.git branch -d branch name :to delete the branch
+22.git branch -D branch name :to delete the branch forcefully
+23.git diff branch1 branch2 : to compare the branches
+24.git merge branch name :to mergethe branch with all the information
+25.git cherrypic commit id : to merge the branch with particular information
+26.git pull origin master : pull the data from remote repository to the local repository 
+27.git tag v1.5 : to give the version for head
+28.git tag v1.4 commit id :to give the tag name for particular commit
+29.git push origin --all : to push the tags
+30.git clone url : to  take the back up
+31.git remote -d branch name : to delete the branch remotly
+
+
+
+
