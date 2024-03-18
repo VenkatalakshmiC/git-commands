@@ -29,6 +29,7 @@
 29.git push origin --all : to push the tags
 30.git clone url : to  take the back up
 31.git remote -d branch name : to delete the branch remotly
+32.git clean : to force untracked files deletion
 
 
 
